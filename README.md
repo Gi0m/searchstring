@@ -1,12 +1,19 @@
 # Searchstring generator for Pokemon Go
 
-This script generates a Searchstring based on your  [Pokedextracker](https://pokedextracker.com/) info. 
+This script generates a Searchstring based on your  [Pokedextracker](https://pokedextracker.com/) 
+info. 
 
-The basic idea is, that you can keep a list of caught/uncaugt Pokemon on Pokedextracker and then use that list in order to generate a Searchstring, which can be copied into Pokemon Go in order to instantly see which pokemon you need from each other.
+If you have never used Pokedextracker, here is what the demo account looks like.
+[demouser: ashketchum10](https://pokedextracker.com/u/ashketchum10/)
+
+The basic idea is, that you can keep a list of caught/uncaugt Pokemon on Pokedextracker and then 
+use that list in order to generate a Searchstring, which can be copied into Pokemon Go in order to 
+instantly see which pokemon you need from each other.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for 
+development and testing purposes.
 
 ### Prerequisites
 
@@ -40,7 +47,8 @@ choco install googlechrome
 
 #### ChromeDriver
 
-Download the ChromeDriver binary for your platform under the [downloads](http://chromedriver.chromium.org/downloads) section of this site.
+Download the ChromeDriver binary for your platform under the 
+[downloads](http://chromedriver.chromium.org/downloads) section of this site.
 
 The exe must be added to your `%PATH%` variable.
 
@@ -63,9 +71,11 @@ Change into the repo
 cd searchstring
 ```
 
-Edit the `url` variable in `searchstring.py` to your pokedex with the text editor of your liking or run the script with the default/demo user.
+Edit the `url` variable in `searchstring.py` to your pokedex with the text editor of your liking or 
+run the script with the default/demo user.
 
-You can also edit the `latestPkmn` variable if you wish to limit add newer generations or remove them.
+You can also edit the `latestPkmn` variable if you wish to limit add newer generations or remove 
+them.
 
 To run the script in terminal simply type:
 
