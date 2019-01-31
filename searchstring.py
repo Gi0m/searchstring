@@ -2,7 +2,7 @@ from lxml import html
 import time
 from selenium import webdriver
 
-url = "https://pokedextracker.com/u/ashketchum10/omega-ruby-living-dex" # Your URL here
+url = "https://pokedextracker.com/u/ashketchum10/omega-ruby-national-living-dex" # Your URL here
 latestPkmn = 495 # This is the last possible pokemon in the list
 
 print("\n")
